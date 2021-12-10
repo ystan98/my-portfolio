@@ -3,18 +3,28 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="My Page" />
+        <meta name="author" content="Yee Sen" />
         <title>Yee Sen's Page</title>
-        <!-- Font Awesome icons (free version)-->
+        <!-- Font Awesome icons -->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+
         <!-- Animate css for text-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Bootstrap 5 edited-->
+
+
+        <!-- Bootstrap 5 customized and edited-->
         <link href="styling/bootstrap-style.css" rel="stylesheet" />
+
+        <!-- Timeline Specific Styling-->
+        <link rel="stylesheet" href="styling/style.css">
+
+        <!-- Vue JS-->
+        <script src="https://unpkg.com/vue@next"></script>
 
     </head>
     <body id="page-top">
@@ -28,10 +38,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About Me</a></li>
                       
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skill">Skills</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">My Journey</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="journey.html">My Journey</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">My Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Curriculum Vitae (PDF)</a>
@@ -45,9 +55,9 @@
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                    <!-- Masthead Heading-->
-                   <br><br>
+                 <br>
                  
-                   <h3 class="masthead-heading mb-0 mt-3 animate__animated animate__fadeInDownBig">Developer, Data Scientist & Investor</h3>
+                   <h2 class="masthead-heading mb-0 animate__animated animate__fadeInDownBig">Developer, Data Scientist & Investor</h2>
                         <!-- Masthead Subheading-->
                   
                 <p class="masthead-subheading  mb-0 mt-3  animate__animated animate__fadeInLeftBig animate__delay-1s">
@@ -59,7 +69,7 @@
             </div>
         </header>
          <!-- About Section-->
-         <section class="page-section text-white mb-0 mt-0 bg-primary" id="about">
+         <section class="page-section text-white  bg-primary" id="journey">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase ">About Me</h2>
@@ -83,16 +93,94 @@
               Diploma with Merit in Financial Informatics. I am capable of building mobile applications, websites and doing data analytics. I did several projects with different programming languages, such as Java, C#, Python, HTML, CSS. Most of my projects were done on Visual Studio and Android Studio.
             </p>
                 </div>
-
             
                 </div>
+  
+               
+                <h2 class="mt-5 text-center">Most Recent Journey</h2>
+                <div class="outertimeline_container">
+                    <div class="outertimeline_container_container">
+                        <div class="timeline">
 
-        
+                          <div class="timeline-container danger">
+                            <div class="timeline-icon">
+                                <img src="assets/img/journey/beluxuria.png" alt="">
+                            </div>
+                            <div class="timeline-body">
+                              <h4 class="timeline-title"><span class="badge">Overseas Virtual Internship</span></h4>
+                              <p> Full Stack Developer at Vietnam Start up  - <a target="_blank" href="https://beluxuria.com/about-us" >Beluxuria</a> 
 
-                <div class="text-center mt-4 mb-0">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="timeline-container success">
+                            <div class="timeline-icon">
+                                <img src="assets/img/journey/MOM.png" alt="">
+                            </div>
+                            <div class="timeline-body">
+                              <h4 class="timeline-title"><span class="badge">Temporary Full Time</span></h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam necessitatibus numquam earum ipsa fugiat veniam suscipit, officiis repudiandae, eum recusandae neque dignissimos. Cum fugit laboriosam culpa, repellendus esse commodi deserunt.</p>
+                             
+                            </div>
+                          </div>
+
+                          <div class="timeline-container primary">
+                            <div class="timeline-icon">
+                              <img src="assets/img/journey/SMU.png" alt="">
+                            </div>
+                            <div class="timeline-body">
+                              <h4 class="timeline-title"><span class="badge">Schooling</span> <span class="badge" style= "background-color:red!important;";>Schooling</span></h4></h4>
+                             
+                              <p> Enrolled in Singapore Management University -  School of Information Systems 
+                                  <br>Major in Information Systems : Dual Track in Business Analytics & Financial Technology</p>
+                            
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                <!-- <ul class="timeline mt-0"> 
+                    <li class="timeline-blocks">
+                    <figure class="timeline-icon">
+                    <img src="assets/img/journey/beluxuria.png" alt="timeline" />
+                    </figure>
+                    <div class="dir-r rounded-3">
+                        <h1>Overseas virtual Internship</h1>
+                        <p> Full Stack Developer at Vietnam Start up -<a target="_blank" href="https://beluxuria.com/about-us" >Beluxuria</a> 
+
+                        </p>
+                    </div>
+                    <div class="date-l">December 2021 – Present</div>
+                    </li>
+                      
+                    <li class="timeline-blocks">
+                    <figure class="timeline-icon">
+                    <img src="assets/img/journey/MOM.png" alt="timeline" />
+                    </figure>
+                    <div class="dir-l rounded-3">
+                    <h1>Temp Staff at Ministry of Manpower</h1>
+                    <p> Worked in Research & Statistic Department on a government project that gathers & analyse data on Singapore Labour Market</p>
+                    </div>
+                    <div class="date-r">May 2021 – August 2021</div>
+                    </li>
+                    
+                    <li class="timeline-blocks">
+                    <figure class="timeline-icon">
+                    <img src="assets/img/journey/SMU.png"alt="course" />
+                    </figure>
+                    <div class="dir-r rounded-3">
+                        <h1>Started degree education at Singapore Management University</h1>
+                        <p> Information Systems 
+                            <br>(Dual Track in Business Analytics & Financial Technology)</p>
+                    </div>
+                    <div class="date-l">August 2020 – Present</div>
+                    </li>
+                    </ul> -->
+
+                <div class="text-center mt-0 mb-0">
                     <a class="btn btn-xl btn-outline-dark" href="https://drive.google.com/file/d/1sv900BXcQMj6ZPAU-rT7vAY8gT66eksB/view?usp=sharing"  target="_blank">
                         <i class="fas fa-road me-2"></i>
-                      View my Journey
+                      View my full Journey
                     </a>
                 </div>
               
