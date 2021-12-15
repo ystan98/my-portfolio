@@ -7,7 +7,7 @@ let education = Vue.createApp({
 
 
 // Footer
-education.component("online-accreditation", {
+education.component("online-accreditation", {   
     data: function () {
         return {
           certification:  [
