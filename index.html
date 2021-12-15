@@ -29,44 +29,15 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand"  href="#page-top"> Yee Sen</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="active nav-link py-3 px-0 px-lg-3 rounded" href="#about">About Me</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="journey.html">Education</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="journey.html">Experience</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">My Projects</a></li>
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Curriculum Vitae (PDF)</a>
-                          </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-white  text-center" id="about">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                   <!-- Masthead Heading-->
-                 <br>
-                 
-                   <h2 class="masthead-heading mb-0 animate__animated animate__fadeInDownBig">Developer, Data Scientist & Investor</h2>
-                        <!-- Masthead Subheading-->
-                  
-                <p class="masthead-subheading  mb-0 mt-3  animate__animated animate__fadeInLeftBig animate__delay-1s">
-                   <span class="icode"> I code</span>, <span class="ianalyze">I analyze, </span> <span class="iinvest">I invest</span> , and I enjoy what I do</p>
-                   <img src="assets/img/my_picture.jpg" class="rounded-circle mb-0 mt-5 animate__animated animate__fadeIn  animate__delay-2s" style="width:20%; height:20%;" alt="">
-                  <p class="lead mt-3 animate__animated animate__fadeIn  animate__delay-2s">Tan Yee Sen</p>
 
-            
-            </div>
-        </header>
+        <div id="app">
+        <nav-bar></nav-bar>
+        <!-- header1-->
+    <about-header> </about-header>
+    </div>
+
+
+
          <!-- About Section-->
          <section class="page-section text-white  bg-primary" id="about">
             <div class="container">
@@ -109,6 +80,7 @@
                               <h4 class="timeline-title"><span class="badge">Overseas Virtual Internship</span></h4>
                               <p> Full Stack Developer at Vietnam Start up  - <a target="_blank" href="https://beluxuria.com/about-us" >Beluxuria</a> 
 
+
                               </p>
                             </div>
                           </div>
@@ -118,7 +90,9 @@
                             </div>
                             <div class="timeline-body">
                               <h4 class="timeline-title"><span class="badge">Temporary Full Time</span></h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam necessitatibus numquam earum ipsa fugiat veniam suscipit, officiis repudiandae, eum recusandae neque dignissimos. Cum fugit laboriosam culpa, repellendus esse commodi deserunt.</p>
+
+                              <p> Worked in Research & Statistic Department on a government project that gathers & analyse data on Singapore Labour Market</p>
+
                              
                             </div>
                           </div>
@@ -132,49 +106,14 @@
                              
                               <p> Enrolled in Singapore Management University -  School of Information Systems 
                                   <br>Major in Information Systems : Dual Track in Business Analytics & Financial Technology</p>
-                            
+
+                                  August 2020 - Present
+
                             </div>
                           </div>
 
                         </div>
                       </div>
-                <!-- <ul class="timeline mt-0"> 
-                    <li class="timeline-blocks">
-                    <figure class="timeline-icon">
-                    <img src="assets/img/journey/beluxuria.png" alt="timeline" />
-                    </figure>
-                    <div class="dir-r rounded-3">
-                        <h1>Overseas virtual Internship</h1>
-                        <p> Full Stack Developer at Vietnam Start up -<a target="_blank" href="https://beluxuria.com/about-us" >Beluxuria</a> 
-
-                        </p>
-                    </div>
-                    <div class="date-l">December 2021 – Present</div>
-                    </li>
-                      
-                    <li class="timeline-blocks">
-                    <figure class="timeline-icon">
-                    <img src="assets/img/journey/MOM.png" alt="timeline" />
-                    </figure>
-                    <div class="dir-l rounded-3">
-                    <h1>Temp Staff at Ministry of Manpower</h1>
-                    <p> Worked in Research & Statistic Department on a government project that gathers & analyse data on Singapore Labour Market</p>
-                    </div>
-                    <div class="date-r">May 2021 – August 2021</div>
-                    </li>
-                    
-                    <li class="timeline-blocks">
-                    <figure class="timeline-icon">
-                    <img src="assets/img/journey/SMU.png"alt="course" />
-                    </figure>
-                    <div class="dir-r rounded-3">
-                        <h1>Started degree education at Singapore Management University</h1>
-                        <p> Information Systems 
-                            <br>(Dual Track in Business Analytics & Financial Technology)</p>
-                    </div>
-                    <div class="date-l">August 2020 – Present</div>
-                    </li>
-                    </ul> -->
 
                 <div class="text-center mt-0 mb-0">
                     <a class="btn btn-xl btn-outline-dark" href="https://drive.google.com/file/d/1sv900BXcQMj6ZPAU-rT7vAY8gT66eksB/view?usp=sharing"  target="_blank">
@@ -264,34 +203,23 @@
                 </a>
             </div>
         </section>
-   
+
+
+    <div id="app2">
         <!-- Footer-->
-        <footer class="footer text-center mt-0 pb-5">
-            <div class="container">
-                <div class="row">
-                  
-                
-                    <!-- Footer Social Icons-->
-                    <div class="col mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Reach out to me at</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="     https://www.facebook.com/tyeesen/" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/ystan98" target="_blank"><i class="fab fa-fw fa-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/yeesentan/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://t.me/heyitsys" target="_blank"><i class="fab fa-fw fa-telegram-plane"></i></a>
-                    </div>
-               
-                </div>
-            </div>
-        </footer>
+       <footer-items></footer-items>
         <!-- Copyright Section-->
-        <div class="footer py-4 mt-0 pt-0 text-center text-white">
-            <div class="container"><small>Copyright &copy; Yee Sen 2021</small></div>
-        </div>
+      <copyrights></copyrights>
+    </div>
+
     
-        <!-- Bootstrap core JS-->
+        <!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-
+         <!-- Template-->
+        <script src="js/skeleton.js"></script>
+ 
     </body>
 </html>
