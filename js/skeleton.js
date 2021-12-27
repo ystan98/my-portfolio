@@ -69,23 +69,7 @@ main.component("about-header", {
 `,
 });
 
-main.component("about-heade2r", {
-    template: `
-    <header class="masthead bg-white  text-center" id="about">
-    <div class="container d-flex align-items-center flex-column">
-        <!-- Masthead Avatar Image-->
-           <!-- Masthead Heading-->
-         <br>
-           <h2 class="masthead-heading mb-0 animate__animated animate__fadeInDownBig">Developer, Data Scientist & Investor</h2>
-                <!-- Masthead Subheading-->
-        <p class="masthead-subheading  mb-0 mt-3  animate__animated animate__fadeInLeftBig animate__delay-1s">
-           <span class="icode"> I code</span>, <span class="ianalyze">I analyze, </span> <span class="iinvest">I invest</span> , and I enjoy what I do</p>
-           <img src="assets/img/my_picture.jpg" class="rounded-circle mb-0 mt-5 animate__animated animate__fadeIn  animate__delay-2s" style="width:15em;" alt="">
-          <p class="lead mt-4 animate__animated animate__fadeIn  animate__delay-2s">Tan Yee Sen</p>
-    </div>
-</header>
-`,
-});
+
 
 main.mount("#app")
 
