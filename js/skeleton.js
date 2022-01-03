@@ -69,7 +69,43 @@ main.component("about-header", {
 `,
 });
 
+main.component("education-header", {
+    template: `
+    <header class="masthead bg-white  text-center" >
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image-->
+           <!-- Masthead Heading-->
+         <br>
+         <h2 class="masthead-heading mb-0">My <span class="text-primary">Education</span></h2>
+                <!-- Masthead Subheading-->
+        <p class="masthead-subheading  mb-0 mt-3  ">
+        <i>“I am always ready to learn although I do not always like being taught.” </i></p>
+           <img src="assets/img/education/education.jpg" class="img-floating mb-0 mt-5" style=" max-width: 40%; min-width:400px; " alt="">
+    </div>
+</header>
+`,
+});
 
+main.component("projects-header", {
+    template: `
+    <!-- Masthead-->
+    <header class="masthead bg-white  text-center">
+      <div class="container d-flex align-items-center flex-column">
+          <!-- Masthead Avatar Image-->
+             <!-- Masthead Heading-->
+           <br>
+           
+             <h2 class="masthead-heading mb-0">My <span class="text-primary">Projects</span></h2>
+                  <!-- Masthead Subheading-->
+            
+          <p class="masthead-subheading  mb-0 mt-3">
+        <span class="icode"> Mobile Applications</span>, <span class="ianalyze">Web Applications, </span> <span class="iinvest">Data Science</span> </p>
+             <img src="assets/img/programming.png" class="mb-0 mt-5 img-floating" style="max-width: 10%; min-width:300px;" alt="">
+      
+      </div>
+  </header>
+`,
+});
 
 main.mount("#app")
 

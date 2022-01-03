@@ -11,17 +11,19 @@
 
         <!-- Animate css for text-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Readex+Pro&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
 
+ 
 
         <!-- Bootstrap 5 customized and edited-->
         <link href="styling/bootstrap-style.css" rel="stylesheet" />
 
-        <!-- Timeline Specific Styling-->
-        <link rel="stylesheet" href="styling/style.css">
+
+        <!-- Education Specific Styling-->
+        <link rel="stylesheet" href="styling/education_styling.css">
 
         <!-- Vue JS-->
         <script src="https://unpkg.com/vue@next"></script>
@@ -31,8 +33,8 @@
         <!-- Navigation-->
         <div id="app">
         <nav-bar></nav-bar>
-        <!-- header1-->
-    <about-header> </about-header>
+        <!-- header-->
+    <education-header> </education-header>
     </div>
 
 
@@ -69,25 +71,13 @@
             
         </section>      
 
-         <!-- Whatever Section-->
-         <section class="page-section bg-white mb-0 pb-5">
-            <div class="container">
-                <!-- Whatever Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase ">Academic Achievements</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-dark">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-user-graduate"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!--  Content here-->
-
-            </div>
-            </div>
-        </section>
+        
 
         <div id="app_education">
-                 <!-- Whatever Section-->
+            <!-- Education-->
+            <education-achievement></education-achievement>
+     
+                 <!-- Education-->
                  <online-accreditation></online-accreditation>
             </div>
             
@@ -96,6 +86,64 @@
        <footer-items></footer-items>
         <!-- Copyright Section-->
       <copyrights></copyrights>
+    </div>
+
+    <div class="container">
+        <div class="page-header">
+            <h1 id="timeline">Timeline</h1>
+        </div>
+        <ul class="timeline">
+            <li>
+              <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5 class="timeline-title">Singapore Management University <br> (School of Computing & Information Systems)</h5>
+                  <p><small class="text-muted"> 2020 - Present</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Bachelors of Science, Major in Information Systems. 
+                      <br>(Dual Track in Business Analytics & Financial Technology)</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge warning"><i class="fa fa-graduation-cap"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5 class="timeline-title">Nanyang Polytechnic</h5>
+                  <p><small class="text-muted"> 2015-2018</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Diploma in Financial Informatics</p>
+                  <ul>
+                      
+                    <li>OCBC Bank Silver Medal (Second in Cohort)  </li>
+                    <li>Diploma with Merit (Top graduates from each course)  </li>
+                    
+                    <li>Diploma with Merit (Top graduates from each course)  </li>
+                    <li>Diploma with Merit (Top graduates from each course)  </li>
+                    <li>Director's List every semester (Top 15% in cohort in each semester)  </li>
+                
+                
+                </ul>
+                 
+                </div>
+              </div>
+            </li>
+            <li>
+                <div class="timeline-badge danger"><i class="fa fa-graduation-cap"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5 class="timeline-title">Mayflower Secondary School</h5>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2010-2014</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Express Stream - GCE O-Level</p>
+                </div>
+              </div>
+            </li>
+
+        </ul>
     </div>
 
     
@@ -111,3 +159,11 @@
  
     </body>
 </html>
+
+
+
+
+
+
+
+

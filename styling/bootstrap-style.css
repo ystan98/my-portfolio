@@ -11548,4 +11548,20 @@ background-color:#CBE4F9;
   background-color:#E3FAB3;
 }
 
-/* progress */
+/* images */
+
+
+.img-floating{
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-delay: 0s !important;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+@keyframes floating {
+  from { transform: translate(0,  -10px); }
+  65%  { transform: translate(0, 20px); }
+  to   { transform: translate(0, -10px); }    
+}
