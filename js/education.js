@@ -270,9 +270,10 @@ education.component("education-achievement", {
                         <div class="divider-custom-line"></div>
                         <div class="divider-custom-icon"><i class="fas fa-user-graduate text-white"></i></div>
                         <div class="divider-custom-line"></div>
-                        </div>
-
                         
+                        </div>
+                        <div class="row" data-aos="fade-up">
+                      
 
     <ul class="timeline">
         <li>

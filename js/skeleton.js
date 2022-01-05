@@ -20,7 +20,7 @@ main.component("nav-bar", {
                 },
                 {
                     href: "experience.html",
-                    text: "Experience",
+                    text: "Work Experience",
                 },
                 {
                     href: "projects.html",
@@ -86,6 +86,23 @@ main.component("education-header", {
 `,
 });
 
+main.component("experience-header", {
+    template: `
+    <header class="masthead bg-white  text-center"  style=" height: 100vh;">
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image-->
+           <!-- Masthead Heading-->
+         <br>
+         <h2 class="masthead-heading mb-0">My <span class="text-primary">Work Experience</span></h2>
+                <!-- Masthead Subheading-->
+        <p class="masthead-subheading  mb-0 mt-3  ">
+        <i>“Nothing ever becomes real 'til it is experienced, including education” </i></p>
+           <img src="assets/img/experience/work_exp.png" class="img-floating mb-0 mt-4" style=" max-width: 25%; min-width:400px; " alt="">
+    </div>
+</header>
+`,
+});
+
 main.component("projects-header", {
     template: `
     <!-- Masthead-->
@@ -100,7 +117,7 @@ main.component("projects-header", {
             
           <p class="masthead-subheading  mb-0 mt-3">
         <span class="icode"> Mobile Applications</span>, <span class="ianalyze">Web Applications, </span> <span class="iinvest">Data Science</span> </p>
-             <img src="assets/img/programming.png" class="mb-0 mt-4 img-floating" style="max-width:10%; min-width:275px;" alt="">
+             <img src="assets/img/projects/programming.png" class="mb-0 mt-4 img-floating" style="max-width:10%; min-width:275px;" alt="">
       
       </div>
   </header>
