@@ -1,169 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="My Page" />
-        <meta name="author" content="Yee Sen" />
-        <title>My Education</title>
-        <!-- Font Awesome icons -->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="My Page" />
+    <meta name="author" content="Yee Sen" />
+    <title>My Education</title>
+    <!-- Font Awesome icons -->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      crossorigin="anonymous"
+    ></script>
 
-        <!-- Animate css for text-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Readex+Pro&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <!-- Animate css for text-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
 
- 
-
-        <!-- Bootstrap 5 customized and edited-->
-        <link href="styling/bootstrap-style.css" rel="stylesheet" />
+    <!-- Animation Parallax CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-        <!-- Education Specific Styling-->
-        <link rel="stylesheet" href="styling/education_styling.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Readex+Pro&family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"/>
 
-        <!-- Vue JS-->
-        <script src="https://unpkg.com/vue@next"></script>
+    <!-- Bootstrap 5 customized and edited-->
+    <link href="styling/bootstrap-style.css" rel="stylesheet" />
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <div id="app">
-        <nav-bar></nav-bar>
-        <!-- header-->
-    <education-header> </education-header>
+    <!-- Education Specific Styling-->
+    <link rel="stylesheet" href="styling/education_styling.css" />
+
+    <!-- Vue JS-->
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <div id="app">
+      <nav-bar></nav-bar>
+      <!-- header-->
+      <education-header> </education-header>
     </div>
 
+    <div id="app_education">
+      <!-- Education-->
+      <education-achievement></education-achievement>
 
-         <!-- About Section-->
-         <section class="page-section text-white  bg-primary" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase ">About Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-smile"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col text-center"> <h2>Hi there, I'm Yee Sen. Nice to meet you</h2></div></div>
-                <div class="row mt-4">
-                    <div class="col-lg-8 mx-auto"><p class="lead2">
-            I'm a Year 2 Singapore Management University (SMU) student
-              studying Information Systems with dual track
-              in Business Analytics and Financial Technology.
+      <!-- Education-->
+      <online-accreditation></online-accreditation>
+    </div>
 
-              <br><br>
-              I previously graduated from Nanyang Polytechnic with
-              Diploma with Merit in Financial Informatics. I am capable of building mobile applications, websites and doing data analytics. I did several projects with different programming languages, such as Java, C#, Python, HTML, CSS. Most of my projects were done on Visual Studio and Android Studio.
-            </p>
-                </div>
-            
-                </div>
-  
-               
-                <h2 class="mt-5 text-center">Content</h2>
-            
-        </section>      
-
-        
-
-        <div id="app_education">
-            <!-- Education-->
-            <education-achievement></education-achievement>
-     
-                 <!-- Education-->
-                 <online-accreditation></online-accreditation>
-            </div>
-            
     <div id="app2">
-        <!-- Footer-->
-       <footer-items></footer-items>
-        <!-- Copyright Section-->
+      <!-- Footer-->
+      <footer-items></footer-items>
+      <!-- Copyright Section-->
       <copyrights></copyrights>
     </div>
 
-    <div class="container">
-        <div class="page-header">
-            <h1 id="timeline">Timeline</h1>
-        </div>
-        <ul class="timeline">
-            <li>
-              <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h5 class="timeline-title">Singapore Management University <br> (School of Computing & Information Systems)</h5>
-                  <p><small class="text-muted"> 2020 - Present</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p>Bachelors of Science, Major in Information Systems. 
-                      <br>(Dual Track in Business Analytics & Financial Technology)</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge warning"><i class="fa fa-graduation-cap"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h5 class="timeline-title">Nanyang Polytechnic</h5>
-                  <p><small class="text-muted"> 2015-2018</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p>Diploma in Financial Informatics</p>
-                  <ul>
-                      
-                    <li>OCBC Bank Silver Medal (Second in Cohort)  </li>
-                    <li>Diploma with Merit (Top graduates from each course)  </li>
-                    
-                    <li>Diploma with Merit (Top graduates from each course)  </li>
-                    <li>Diploma with Merit (Top graduates from each course)  </li>
-                    <li>Director's List every semester (Top 15% in cohort in each semester)  </li>
-                
-                
-                </ul>
-                 
-                </div>
-              </div>
-            </li>
-            <li>
-                <div class="timeline-badge danger"><i class="fa fa-graduation-cap"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h5 class="timeline-title">Mayflower Secondary School</h5>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2010-2014</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p>Express Stream - GCE O-Level</p>
-                </div>
-              </div>
-            </li>
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-        </ul>
-    </div>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- Template-->
+    <script src="js/skeleton.js"></script>
+    <!-- Education Specific-->
+    <script src="js/education.js"></script>
 
-    
-        <!-- Bootstrap core JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-         <!-- Template-->
-        <script src="js/skeleton.js"></script>
-        <!-- Education Specific-->
-        <script src="js/education.js"></script>
- 
-    </body>
+    <!-- AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
-
-
-
-
-
-
-
-

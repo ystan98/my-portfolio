@@ -2,15 +2,15 @@
 let main = Vue.createApp({
     data() {
         return {
-            a:true,
-            }}
+            a: true,
+        }
+    }
 })
 main.component("nav-bar", {
     data: function () {
         return {
             my_href: location.href,
-            menu: [
-                {
+            menu: [{
                     href: "index.html",
                     text: "About me",
                 },
@@ -53,7 +53,7 @@ main.component("nav-bar", {
 
 main.component("about-header", {
     template: `
-    <header class="masthead bg-white  text-center" >
+    <header class="masthead bg-white  text-center" style=" height: 100vh;">
     <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
            <!-- Masthead Heading-->
@@ -71,7 +71,7 @@ main.component("about-header", {
 
 main.component("education-header", {
     template: `
-    <header class="masthead bg-white  text-center" >
+    <header class="masthead bg-white  text-center"  style=" height: 100vh;">
     <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
            <!-- Masthead Heading-->
@@ -89,7 +89,7 @@ main.component("education-header", {
 main.component("projects-header", {
     template: `
     <!-- Masthead-->
-    <header class="masthead bg-white  text-center">
+    <header class="masthead bg-white  text-center" style=" height: 100vh;">
       <div class="container d-flex align-items-center flex-column">
           <!-- Masthead Avatar Image-->
              <!-- Masthead Heading-->
@@ -100,7 +100,7 @@ main.component("projects-header", {
             
           <p class="masthead-subheading  mb-0 mt-3">
         <span class="icode"> Mobile Applications</span>, <span class="ianalyze">Web Applications, </span> <span class="iinvest">Data Science</span> </p>
-             <img src="assets/img/programming.png" class="mb-0 mt-5 img-floating" style="max-width: 10%; min-width:300px;" alt="">
+             <img src="assets/img/programming.png" class="mb-0 mt-4 img-floating" style="max-width:10%; min-width:275px;" alt="">
       
       </div>
   </header>
@@ -112,8 +112,9 @@ main.mount("#app")
 let main2 = Vue.createApp({
     data() {
         return {
-            a:true,
-            }}
+            a: true,
+        }
+    }
 })
 
 
@@ -122,8 +123,7 @@ main2.component("footer-items", {
     data: function () {
         return {
             my_href: location.href,
-            items: [
-                {
+            items: [{
                     href: "https://www.facebook.com/tyeesen/",
                     icon: "fa-facebook-f",
                 },
@@ -168,9 +168,3 @@ main2.component("copyrights", {
 });
 
 main2.mount("#app2")
-
-
-      
-    
-     
-       

@@ -16,6 +16,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 
+  <!-- Animation Parallax CSS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <!-- Bootstrap 5 customized and edited-->
         <link href="styling/bootstrap-style.css" rel="stylesheet" />
@@ -42,7 +44,7 @@
          <section class="page-section text-white  bg-primary" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase ">About Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase">About Me</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -50,9 +52,9 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
+                <div class="row" data-aos="fade-up">
                     <div class="col text-center"> <h2>Hi there, I'm Yee Sen. Nice to meet you</h2></div></div>
-                <div class="row mt-4">
+                <div class="row mt-4" data-aos="fade-up">
                     <div class="col-lg-8 mx-auto"><p class="lead2">
             I'm a Year 2 Singapore Management University (SMU) student
               studying Information Systems with dual track
@@ -65,9 +67,14 @@
                 </div>
             
                 </div>
-  
+                <div class="text-center mt-4 mb-0">
+                  <a class="btn btn-xl btn-outline-dark" href="https://drive.google.com/file/d/1sv900BXcQMj6ZPAU-rT7vAY8gT66eksB/view?usp=sharing"  target="_blank">
+                      <i class="fas fa-road me-2"></i>
+                    View my full Journey
+                  </a>
+              </div>
                
-                <h2 class="mt-5 text-center">Most Recent Journey</h2>
+                <!-- <h2 class="mt-5 text-center">Most Recent Journey</h2>
                 <div class="outertimeline_container">
                     <div class="outertimeline_container_container">
                         <div class="timeline">
@@ -122,7 +129,7 @@
                     </a>
                 </div>
               
-            </div>
+            </div> -->
         </section>      
 
          <!-- Skills Section-->
@@ -137,7 +144,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Skill Section Content-->
-                <div class="row">
+                <div class="row" data-aos="fade-up">
                     <div class="col-lg-4 fullstack p-5 text-center rounded-start">
                         <i class="fas fa-laptop-code display-5"></i>
                         <p class="lead mt-4"> Full Stack Developer </p>
@@ -220,6 +227,12 @@
         <script src="js/scripts.js"></script>
          <!-- Template-->
         <script src="js/skeleton.js"></script>
+
+           <!-- AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
  
     </body>
 </html>

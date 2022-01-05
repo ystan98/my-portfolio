@@ -12,8 +12,8 @@ education.component("online-accreditation", {
   data: function () {
     return {
       certification: [{
-          title: "Blockchain Specialization",
-          tags: ['Coursera', 'Blockchain'],
+          title: "Applied Data Science Capstone",
+          tags: ['Coursera', 'Data Science'],
           head: `                        <p class="display-6 text-white text-center card-img-top p-4  m-0" style="background-color:#0056D2;  font-family: 'Source Sans Pro', sans-serif;">coursera</p>
         `,
           type: 'Specialization',
@@ -192,7 +192,7 @@ education.component("online-accreditation", {
     };
   },
   template: `
-    <section class="page-section bg-white mb-0 pb-5">
+    <section class="page-section bg-white mt-0 mb-0 pb-5">
                     <div class="container">
                        
                         <h2 class="page-section-heading text-center text-uppercase ">Online Accreditations</h2>
@@ -203,7 +203,7 @@ education.component("online-accreditation", {
                             <div class="divider-custom-line"></div>
                         </div>
                         <div class="row" >
-                        <div class="col col-md-4 col-xl-3 col-sm-6 col-12" style="height:fit-content;" v-for="i,index of certification">
+                        <div data-aos="fade-up" class="col col-xl-3 col-sm-6 col-12 px-sm-2 px-5" style="height:fit-content;" v-for="i,index of certification">
                         <div class="card my-3" style="height:240px">
                         <span class="" style="height:100px!important;" v-html="certification[index].head"></span>
 
@@ -258,108 +258,90 @@ education.component("online-accreditation", {
 
 // Education Achievements
 education.component("education-achievement", {
-  data: function () {
-    return {
-      awards: [{
-          title: "OCBC Bank Silver Medal (2018)",
-          desc: 'Awarded to graduating student in 2018 with the second highest GPA in cohort.',
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/ocbc.png">`,
-        }, 
-        {
-          title: "Singapore Computer Society Award for Outstanding Project Work (2018)",
-          desc: 'Awarded to one student for outstanding projects done  ',
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/scs.png">`,
-        }, 
-        {
-          title: "MOE Edusave Skills Award <br> (2018)",
-          desc: 'Up to 10% of graduating students  who demonstrated excellent professional & soft skills  and good conduct.',
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/moe.png">`,
-        },
-        {
-          title: "Edusave Certificate of Academic Achievement (2018)",
-          desc: 'Awarded to students based on learning dispositions and excellent academic performance.',
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/moe.png">`,
-        },
-        {
-          title: "Edusave Certificate of Academic Achievement (2017)",
-          desc: 'Awarded to students based on learning dispositions and excellent academic performance.',
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/moe.png">`,
-        },
-        {
-          title: "Director's List (2017 Semester 2)",
-          desc: "Director's list is awarded to top 15% students in the cohort for each academic semester",
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/nyp.jpg">`,
-        },
-        {
-          title: "Director's List (2017 Semester 1)",
-          desc: "Director's list is awarded to top 15% students in the cohort for each academic semester",
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/nyp.jpg">`,
-        },
-        {
-          title: "Director's List (2016 Semester 2)",
-          desc: "Director's list is awarded to top 15% students in the cohort for each academic semester",
-
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/nyp.jpg">`,
-        },
-        {
-          title: "Director's List (2016 Semester 1)",
-          desc: "Director's list is awarded to top 15% students in the cohort for each academic semester",
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/nyp.jpg">`,
-        },
-
-
-
-        {
-          title: "Director's List (2015 Semester 2)",
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/nyp.jpg">`,
-          desc: "Director's list is awarded to top 15% students in the cohort for each academic semester",
-
-        },
-
-
-        {
-          title: "Director's List (2015 Semester 1)",
-          desc: "Director's list is awarded to top 15% students in the cohort for each academic semester",
-          head: `<img style="width:100%; height:60px;" src="assets/img/education/nyp.jpg">`,
-          type: 'Nanyang Polytechnic',
-
-        },
-
-
-      ]
-    };
-  },
 
 
   template: `
-    <section class="page-section bg-white mb-0 pb-5">
+    <section class="page-section bg-primary mt-0 mb-0 pb-5 text-white">
                     <div class="container">
                        
-                        <h2 class="page-section-heading text-center text-uppercase ">Academic Achievements</h2>
+                        <h2 class="page-section-heading text-white text-center text-uppercase ">Academic Journey</h2>
                         <!-- Icon Divider-->
-                        <div class="divider-custom divider-dark">
+                        <div class="divider-custom divider-light">
                         <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-user-graduate"></i></div>
+                        <div class="divider-custom-icon"><i class="fas fa-user-graduate text-white"></i></div>
                         <div class="divider-custom-line"></div>
                         </div>
 
+                        
 
-                        <div class="row" >
-                        <div class="col col-md-4 col-xl-3 col-sm-6 col-12" style="height:fit-content;" v-for="i,index of awards">
-                        <div class="card my-3" style="height:260px">
-                    
-                        <div class="p-3 border-bottom"  v-html="awards[index].head"></div>
-   
-                                 
-                        <div class="card-body mt-3 pt-0">
-                          <h6 class="card-title" v-html="awards[index].title"></h6>
-                          <p> {{awards[index].desc}}</p>
-      
-                        </div>
-                      </div>
+    <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
+          <div class="timeline-panel bg-dark" data-aos="fade-right">
+            <div class="timeline-heading">
+              <h5 class="timeline-title">Singapore Management University <br> (School of Computing & Information Systems)</h5>
+              <p><small class="text-muted2"> 2020 - Present</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Bachelors of Science, Major in Information Systems. 
+                  <br>(Dual Track in Business Analytics & Financial Technology)</p>
+                  <ul class="mt-2">
+                  <li>SCIS Aspiration Scholarship </li>               
+                  <li>Global Ready Talent Programme (GRT) grant recipient (AY 21/22)</li>
+                  <li> Deans's List (AY 20-21)   </li>
+         
+              
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="fa fa-graduation-cap"></i></div>
+          <div class="timeline-panel bg-dark" data-aos="fade-left">
+            <div class="timeline-heading">
+              <h5 class="timeline-title">Nanyang Polytechnic</h5>
+              <p><small class="text-muted2"> 2015-2018</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Diploma in Financial Informatics</p>
+              
+              <ul class="mt-2">
+                  
+                <li>OCBC Bank Silver Medal (2018)  </li>
+                <li>Singapore Computer Society Award for Outstanding Project Work (2018) </li>   
+                <li>Diploma with Merit (2018)</li>
+                <li>Edusave Skills Award (2018) </li>
+                <li> Young Talent Programme (YTP) recipient  </li>   
+                <li> Edusave Certificate of Academic Achievement 2018  </li> 
+                <li> Edusave Certificate of Academic Achievement 2017  </li>              
+                <li> Director's List (AY 17 Semester 2)   </li>
+                <li> Director's List (AY 17 Semester 1)   </li>
+                <li> Director's List (AY 16 Semester 2)   </li>
+                <li> Director's List (AY 16 Semester 1)   </li>
+                <li> Director's List (AY 15 Semester 2)  </li>
+                <li> Director's List (AY 15 Semester 1)  </li>            
+               
+            </ul>
+             
+            </div>
+          </div>
+        </li>
+        <li>
+            <div class="timeline-badge danger"><i class="fa fa-graduation-cap"></i></div>
+            <div class="timeline-panel bg-dark" data-aos="fade-right">
+            <div class="timeline-heading">
+              <h5 class="timeline-title">Mayflower Secondary School</h5>
+              <p><small class="text-muted2"><i class="glyphicon glyphicon-time"></i> 2010-2014</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Express Stream - GCE O-Level</p>
+            </div>
+          </div>
+        </li>
 
-</div>
-                      </div>
+    </ul>
+
+
 
                            </div>
                                   </section>
