@@ -48,6 +48,15 @@ education.component("online-accreditation", {
           link: "https://www.coursera.org/account/accomplishments/certificate/YC65BA2EHN2P",
         },
         {
+          title: "Data Analysis and Visualizations Foundations",
+          head: `                        <p class="display-6 text-white text-center card-img-top p-4  m-0" style="background-color:#0056D2;  font-family: 'Source Sans Pro', sans-serif;">coursera</p>
+          `,
+          tags: ['Coursera', 'Data Analytics'],
+
+          type: 'Course',
+          link: "https://www.coursera.org/account/accomplishments/specialization/certificate/KT45LY3EMN4D",
+        },
+        {
           title: "Data Visualization with Python",
           head: `                        <p class="display-6 text-white text-center card-img-top p-4  m-0" style="background-color:#0056D2;  font-family: 'Source Sans Pro', sans-serif;">coursera</p>
           `,
@@ -237,7 +246,7 @@ education.component("online-accreditation", {
                            &nbsp;
                            </span>
                            </p>
-                          <div class="card-bot" style="position:absolute; bottom:5px;">
+                          <div class="card-bot" style="position:absolute; bottom:5 px;">
                           <a class="btn ms-0 ps-0" v-bind:href="certification[index].link"  target="_blank">
                           <i class="fas fa-search me-2"></i>
                         View Certificate
