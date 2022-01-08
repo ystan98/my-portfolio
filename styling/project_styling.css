@@ -179,5 +179,19 @@ float:none !important;
     height:auto !important;
 }
 
+.section-p3 img{
+    width: 65vw;
+    height:auto !important;
+}
+
+#p3-v{
+width:22em;
+}
+
+
+#p3-h{
+    width:42em;
+}
+
 
 

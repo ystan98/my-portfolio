@@ -17,7 +17,7 @@ education.component("online-accreditation", {
           head: `                        <p class="display-6 text-white text-center card-img-top p-4  m-0" style="background-color:#0056D2;  font-family: 'Source Sans Pro', sans-serif;">coursera</p>
         `,
           type: 'Specialization',
-          link: "https://www.coursera.org/account/accomplishments/specialization/certificate/WB7S2Y5EUBZX",
+          link: "https://www.coursera.org/account/accomplishments/certificate/CDNQDVPJWBCF",
         },
         {
           title: "Blockchain Specialization",
@@ -74,6 +74,16 @@ education.component("online-accreditation", {
 
           type: 'Specialization',
           link: "https://www.coursera.org/account/accomplishments/specialization/certificate/RPQBHBE786SE",
+        },
+        {
+          title: "IBM Data Analyst Professional Certificate",
+          head: `                        <p class="display-6 text-white text-center card-img-top p-4  m-0" style="background-color:black;  font-family: 'Source Sans Pro', sans-serif;">
+          IBM</p>
+          `,
+          tags: ['Coursera', 'IBM', 'Data Science'],
+
+          type: 'Professional',
+          link: "https://www.coursera.org/account/accomplishments/specialization/certificate/7TMEKR6655UA",
         },
 
         {
