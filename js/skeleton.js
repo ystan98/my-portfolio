@@ -10,21 +10,17 @@ main.component("nav-bar", {
     data: function () {
         return {
             my_href: location.href,
-            menu: [{
-                    href: "index",
-                    text: "About",
-                },
-                {
+            menu: [                {
                     href: "education",
                     text: "Education",
                 },
                 {
                     href: "experience",
-                    text: "Experience",
+                    text: "Work Experience",
                 },
                 {
                     href: "projects",
-                    text: "Projects",
+                    text: "My Projects",
                 }
             ],
         };
