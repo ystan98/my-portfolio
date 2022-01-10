@@ -11,7 +11,7 @@ main.component("nav-bar", {
         return {
             my_href: location.href,
             menu: [{
-                    href: "index",
+                    href: "",
                     text: "About",
                 },
                 {
