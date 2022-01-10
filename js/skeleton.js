@@ -42,7 +42,7 @@ main.component("nav-bar", {
             <a class="nav-link py-3 px-0 px-lg-3 rounded" v-bind:class="{'active': my_href.endsWith(i.href)}" v-bind:href="i.href">{{i.text}}</a>
             </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://drive.google.com/file/d/1sv900BXcQMj6ZPAU-rT7vAY8gT66eksB/view?usp=sharing"  target="_blank">CV (PDF)</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://drive.google.com/file/d/1sv900BXcQMj6ZPAU-rT7vAY8gT66eksB/view?usp=sharing"  target="_blank">My CV (PDF)</a>
                   </li>
             </ul>
         </div>
