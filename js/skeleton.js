@@ -19,11 +19,11 @@ main.component("nav-bar", {
                     text: "Education",
                 },
                 {
-                    href: "experience.html",
+                    href: "experience",
                     text: "Experience",
                 },
                 {
-                    href: "projects.html",
+                    href: "projects",
                     text: "Projects",
                 }
             ],
