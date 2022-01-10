@@ -10,17 +10,21 @@ main.component("nav-bar", {
     data: function () {
         return {
             my_href: location.href,
-            menu: [                {
-                    href: "education",
+            menu: [{
+                    href: "index.html",
+                    text: "About",
+                },
+                {
+                    href: "education.html",
                     text: "Education",
                 },
                 {
-                    href: "experience",
-                    text: "Work Experience",
+                    href: "experience.html",
+                    text: "Experience",
                 },
                 {
-                    href: "projects",
-                    text: "My Projects",
+                    href: "projects.html",
+                    text: "Projects",
                 }
             ],
         };
@@ -28,8 +32,7 @@ main.component("nav-bar", {
     template: `
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
-        <a v-if="my_href.endsWith('app')" class="navbar-brand" style="color:green" href="index"> Yee Sen</a>
-        <a v-else class="navbar-brand" style="color:black" href="index"> Yee Sen</a>
+        <a class="navbar-brand"  href="#page-top"> Yee Sen</a>
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
