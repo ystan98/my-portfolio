@@ -15,7 +15,7 @@ main.component("nav-bar", {
                     text: "About",
                 },
                 {
-                    href: "education.html",
+                    href: "education",
                     text: "Education",
                 },
                 {
