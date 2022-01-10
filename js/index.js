@@ -52,7 +52,7 @@ index.component("about-section", {
       </a>
     </div>
      
-     
+     </div>
 </section>    
 `,
 });
