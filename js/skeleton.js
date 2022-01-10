@@ -28,7 +28,7 @@ main.component("nav-bar", {
     template: `
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
-        <a v-bind:class="{'active': my_href.endsWith('app')}" class="navbar-brand"  href="index"> Yee Sen</a>
+        <a v-bind:class="{'active': my_href.endsWith('https://yeesen.netlify.app/')}" class="navbar-brand"  href="index"> Yee Sens</a>
       
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
