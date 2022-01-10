@@ -11,19 +11,19 @@ main.component("nav-bar", {
         return {
             my_href: location.href,
             menu: [{
-                    href: "index.html",
+                    href: "index",
                     text: "About",
                 },
                 {
-                    href: "education.html",
+                    href: "education",
                     text: "Education",
                 },
                 {
-                    href: "experience.html",
+                    href: "experience",
                     text: "Experience",
                 },
                 {
-                    href: "projects.html",
+                    href: "projects",
                     text: "Projects",
                 }
             ],
