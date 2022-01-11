@@ -40,13 +40,13 @@ index.component("about-section", {
   
       </div>
       <div class="text-center mt-4 mb-0">
-        <a class="btn btn-xl btn-outline-dark mx-2 mt-1 mb-1" href="education.html"  target="_blank">
+        <a class="btn btn-xl btn-outline-dark mx-2 mt-1 mb-1" href="education"  target="_blank">
             <i class="fas fa-book me-2 mb-2"></i>
          My academic journey
        
         </a>
 
-        <a class="btn btn-xl btn-outline-dark mx-2 mt-1 mb-1" href="experience.html"  target="_blank">
+        <a class="btn btn-xl btn-outline-dark mx-2 mt-1 mb-1" href="experience"  target="_blank">
           <i class="fas fa-road me-2 mb-2"></i>
        My employment Journey
       </a>
@@ -141,7 +141,7 @@ index.component("skill-section", {
           CURRICULUM VITAE (PDF)
        </a>
 
-       <a class="btn btn-xl btn-outline-dark mx-2" href="projects.html"  target="_blank">
+       <a class="btn btn-xl btn-outline-dark mx-2" href="projects"  target="_blank">
          <i class="fas fa-cog me-2"></i>
        My Projects
      </a>
