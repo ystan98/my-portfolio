@@ -86,7 +86,7 @@ index.component("skill-section", {
                <p>Python, Java, C#, HTML5, CSS3, SQL</p>
 
                <h6 class="mt-4">Frameworks & Libraries : </h6>
-               <p>Bootstrap 5, Vue.JS, Animate.css, Interact.js</p>
+               <p>Bootstrap 5, Vue.JS, Animate.css, Interact.js, Flask</p>
           
 
                <h6 class="mt-4">What I create : </h6>
