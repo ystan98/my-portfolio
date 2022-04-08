@@ -295,6 +295,25 @@ education.component("education-achievement", {
                       
 
     <ul class="timeline">
+    <li class="timeline-inverted">
+    <div class="timeline-badge danger"><i class="fa fa-graduation-cap"></i></div>
+    <div class="timeline-panel bg-dark" data-aos="fade-right">
+      <div class="timeline-heading">
+        <h5 class="timeline-title">Singapore Management University <br> (School of Computing & Information Systems)</h5>
+        <p><small class="text-muted2"> 2022 - Present</small></p>
+      </div>
+      <div class="timeline-body">
+        <p>Masters of IT in Business 
+            <br>(Track in Analytics)</p>
+            <ul class="mt-2">
+            <li>MITB Fast Track Scholarship </li>               
+
+   
+        
+        </ul>
+      </div>
+    </div>
+  </li>
         <li>
           <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
           <div class="timeline-panel bg-dark" data-aos="fade-right">
@@ -309,7 +328,7 @@ education.component("education-achievement", {
                   <li>SCIS Aspiration Scholarship </li>               
                   <li>Global Ready Talent Programme (GRT) grant recipient (AY 21/22)</li>
                   <li> Deans's List (AY 20-21)   </li>
-         
+                  <li> Head of Community Relations & Events (AY 22-23) for Business Intelligence and Analytics Club </li>
               
               </ul>
             </div>
@@ -363,7 +382,7 @@ education.component("education-achievement", {
 
 
 
-                           </div>
+                           </div></div>
                                   </section>
 `,
 });
