@@ -269,7 +269,7 @@ project_web.component("project3b", {
         <p class="lead2 text-start">
        Full Stack Web Application Project for queue management system that supports appointment booking.
     <br><br>
-  
+  This project is done with with 5 other group members.
     </p>
       </div>
     </div>
