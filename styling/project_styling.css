@@ -184,11 +184,6 @@ float:none !important;
     height:auto !important;
 }
 
-.section-p3 img{
-    width: 17em;
-    height:auto !important;
-}
-
 
 .section-p3 img{
     width: 65vw;
@@ -203,6 +198,18 @@ width:22em;
 #p3-h{
     width:42em;
 }
+
+.p3-esdimg1{
+    width:50em !important;
+}
+
+.p3-esdimg2{
+    width:30em !important;
+    height:200px !important;
+}
+
+
+
 
 
 

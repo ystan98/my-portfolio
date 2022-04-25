@@ -275,10 +275,10 @@ project_web.component("project3b", {
     </div>
 
     <div class="section-p3 text-center">
-
-   <img data-aos="fade-up" src="assets/img/projects/chook1.png" alt="" />
-  <img data-aos="fade-up" src="assets/img/projects/chook2.png" alt="" />
-        <img id="p3-h" data-aos="fade-up" src="assets/img/projects/chook3.png" alt="" />
+    <img class="p3-esdimg1" data-aos="fade-up" src="assets/img/projects/chook3.png" alt="" />
+   <img class="p3-esdimg2" data-aos="fade-up" src="assets/img/projects/chook1.png" alt="" />
+  <img class="p3-esdimg2" data-aos="fade-up" src="assets/img/projects/chook2.png" alt="" />
+  
     
     </div>
   </div>
