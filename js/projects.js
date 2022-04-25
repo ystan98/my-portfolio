@@ -236,6 +236,56 @@ project_web.component("project2b", {
 `,
 });
 
+// Web Apps
+project_web.component("project3b", {
+  data: function () {
+    return {
+    };
+  },
+  template: `
+  <div class="page-section text-white bg-success pb-5" id="project_ESD">
+  <div class="container">
+    <!-- About Section Heading-->
+    <h2 class="page-section-heading text-center text-uppercase">
+     Chook
+    </h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom divider-light">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <i class="fas fa-globe"></i>
+      </div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <!-- About Section Content-->
+    <div class="row">
+      <div class="col text-center"><h2>Front End Web Development</h2></div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-lg-8 mx-auto">
+        <p class="lead text-center">
+          Full Stack | Flask | Dockers | Microservice | Academic Project
+        </p>
+        <p class="lead2 text-start">
+       Full Stack Web Application Project for queue management system that supports appointment booking.
+    <br><br>
+  
+    </p>
+      </div>
+    </div>
+
+    <div class="section-p3 text-center">
+      <img data-aos="fade-up" src="assets/img/projects/chook1.png" alt="" />
+               <img id="p3-v" data-aos="fade-up" src="assets/img/projects/chook2.png" alt="" />
+      <img id="p3-h" data-aos="fade-up" src="assets/img/projects/chook3.png" alt="" />
+    
+    </div>
+  </div>
+</div>
+`,
+});
+
+
 
 // Analytics Apps
 projects_analytics.component("project1c", {
