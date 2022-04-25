@@ -267,9 +267,9 @@ project_web.component("project3b", {
           Full Stack | Flask | Dockers | Microservice | Academic Project
         </p>
         <p class="lead2 text-start">
-       Full Stack Web Application Project for queue management system that supports appointment booking.
+       Full Stack Web Application Project for queue management system that supports appointment booking. Please note that this project is done with with 5 other group members.
     <br><br>
-  This project is done with with 5 other group members.
+  
     </p>
       </div>
     </div>
