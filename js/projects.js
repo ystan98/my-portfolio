@@ -267,7 +267,7 @@ project_web.component("project3b", {
           Full Stack | Flask | Dockers | Microservice | Academic Project
         </p>
         <p class="lead2 text-start">
-       Full Stack Web Application Project for queue management system that supports appointment booking. Please note that this project is done with with 5 other group members.
+       Full Stack Web Application Project for queue management system that supports appointment booking. Customer can view queue status for each shop, enter phone number to join queue. Alternatively, they can book appointment on the website as well. Please note that this project is done with with 5 other group members.
     <br><br>
   
     </p>
@@ -275,9 +275,10 @@ project_web.component("project3b", {
     </div>
 
     <div class="section-p3 text-center">
-      <img data-aos="fade-up" src="assets/img/projects/chook1.png" alt="" />
-               <img id="p3-v" data-aos="fade-up" src="assets/img/projects/chook2.png" alt="" />
-      <img id="p3-h" data-aos="fade-up" src="assets/img/projects/chook3.png" alt="" />
+
+   <img data-aos="fade-up" src="assets/img/projects/chook1.png" alt="" />
+  <img data-aos="fade-up" src="assets/img/projects/chook2.png" alt="" />
+        <img id="p3-h" data-aos="fade-up" src="assets/img/projects/chook3.png" alt="" />
     
     </div>
   </div>
