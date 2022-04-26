@@ -29,7 +29,7 @@ project_mobile.component("project1a", {
     };
   },
   template: `
-  <div class="page-section text-white bg-primary pb-5" id="project_medical">
+  <div id="soda" class="page-section text-white bg-primary pb-5" id="project_medical">
   <div class="container">
     <!-- About Section Heading-->
     <h2 class="page-section-heading text-center text-uppercase">
