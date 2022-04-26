@@ -268,7 +268,7 @@ project_web.component("project3b", {
           Full Stack | Flask | Dockers | Microservice | Academic Project
         </p>
         <p class="lead2 text-start">
-       Full Stack Web Application Project for queue management system that supports appointment booking. Customer can view queue status for each shop, enter phone number to join queue. Alternatively, they can book appointment on the website as well. Please note that this project is done with with 5 other group members.
+       Full Stack Web Application Project for queue management system that supports appointment booking. Customer can view queue status for each shop, enter phone number to join queue. Alternatively, they can book appointment on the website as well. *Please note that this project is done together with 5 other group members.
     <br><br>
   
     </p>
@@ -318,7 +318,7 @@ projects_analytics.component("project1c", {
     <div class="row mt-4">
       <div class="col-lg-8 mx-auto">
         <p class="lead text-center">
-          Data Analytics | Dashboard | SAS | Semester Project
+          Data Analytics | Dashboard | SAS | Academic Project
         </p>
         <p class="lead2 text-start">
         Analyzing and presenting credit card data, consisting of over 240k transactions, sign up campaigns etc over 5 years and providing recommendations
