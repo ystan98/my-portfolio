@@ -29,8 +29,8 @@ project_mobile.component("project1a", {
     };
   },
   template: `
-  <div id="soda" class="page-section text-white bg-primary pb-5" id="project_medical">
-  <div class="container">
+  <div  class="page-section text-white bg-primary pb-5" id="project_medical">
+  <div id="soda" class="container">
     <!-- About Section Heading-->
     <h2 class="page-section-heading text-center text-uppercase">
       寻医问诊
@@ -145,8 +145,8 @@ project_web.component("project1b", {
   },
   template: `
  
-  <div class="page-section text-white bg-secondary pb-5">
-  <div class="container">
+  <div  class="page-section text-white bg-secondary pb-5">
+  <div id="beluxuria" class="container">
     <!-- About Section Heading-->
     <h2 class="page-section-heading text-center text-uppercase">
       Luxury Items (E-Commerce)
