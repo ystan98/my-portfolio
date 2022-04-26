@@ -220,14 +220,15 @@ project_web.component("project2b", {
        Responsive Front-End Web Application Project that seeks to reduce food waste by educating public through
        interactive means such as games, infographics , and allow merchants to sign up as partners to contribute by donating excess food.
     <br><br>
-    There is also a recipe generator on the website to let user enter a list of possbile recipe based on the remainders/leftover food items they have at home.
+    There is also a recipe generator on the website to let user enter a list of possible recipe based on the remainders/leftover food items they have at home.
     </p>
       </div>
     </div>
 
     <div class="section-p3 text-center">
       <img data-aos="fade-up" src="assets/img/projects/foodvault3.png" alt="" />
-               <img id="p3-v" data-aos="fade-up" src="assets/img/projects/foodvault1.png" alt="" />
+      <br>
+       <img id="p3-v" data-aos="fade-up" src="assets/img/projects/foodvault1.png" alt="" />
       <img id="p3-h" data-aos="fade-up" src="assets/img/projects/foodvault2.png" alt="" />
     
     </div>
@@ -274,8 +275,9 @@ project_web.component("project3b", {
       </div>
     </div>
 
-    <div class="section-p3 text-center">
+    <div class="section-p3b text-center">
     <img class="p3-esdimg1" data-aos="fade-up" src="assets/img/projects/chook3.png" alt="" />
+    <br>
    <img class="p3-esdimg2" data-aos="fade-up" src="assets/img/projects/chook1.png" alt="" />
   <img class="p3-esdimg2" data-aos="fade-up" src="assets/img/projects/chook2.png" alt="" />
   
