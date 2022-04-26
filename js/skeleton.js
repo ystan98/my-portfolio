@@ -116,7 +116,7 @@ main.component("projects-header", {
                   <!-- Masthead Subheading-->
             
           <p class="masthead-subheading  mb-0 mt-3">
-        <span class="icode"> Mobile Applications</span>, <span class="ianalyze">Web Applications, </span> <span class="iinvest">Data Science</span> </p>
+          <span class="ianalyze">Web Applications, </span> <span class="iinvest"> Data Science & Analytics </span> , <span class="icode"> Mobile Applications</span> </p>
      
              <img src="assets/img/projects/programming.png" class="mb-0 mt-4 img-floating" style="max-width:10%; min-width:275px;" alt="">
       

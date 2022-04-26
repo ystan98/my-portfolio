@@ -145,7 +145,7 @@ project_web.component("project1b", {
   },
   template: `
  
-  <div class="page-section text-white bg-dark pb-5" id="project_BAPJ">
+  <div class="page-section text-white bg-secondary pb-5">
   <div class="container">
     <!-- About Section Heading-->
     <h2 class="page-section-heading text-center text-uppercase">
@@ -244,7 +244,7 @@ project_web.component("project3b", {
     };
   },
   template: `
-  <div class="page-section text-white bg-success pb-5" id="project_ESD">
+  <div class="page-section text-white bg-dark pb-5" id="project_ESD">
   <div class="container">
     <!-- About Section Heading-->
     <h2 class="page-section-heading text-center text-uppercase">
