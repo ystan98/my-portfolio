@@ -260,7 +260,7 @@ project_web.component("project3b", {
     </div>
     <!-- About Section Content-->
     <div class="row">
-      <div class="col text-center"><h2>Front End Web Development</h2></div>
+      <div class="col text-center"><h2>Full Stack Web Development</h2></div>
     </div>
     <div class="row mt-4">
       <div class="col-lg-8 mx-auto">
